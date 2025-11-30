@@ -1,23 +1,24 @@
-import { useNavigate } from "react-router-dom";
-import Button from "../components/Elements/Button/Button";
+import Header from "../components/Fragments/Header";
+import NavBar from "../components/Layout/NavBar";
+import CircularGallery from "../components/Fragments/CircularGalery";
 
 const MoviePage = () => {
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    localStorage.removeItem("isLogin");
-    navigate("/login");
-  };
   return (
-    <div className="items-center justify-center flex flex-col min-h-screen">
-      <h1 className="font-bold text-2xl ">Movies Page!</h1>
-      <Button
-        type="button"
-        onClick={handleLogout}
-        varian=" py-3 hover:text-blue-700 transition-colors font-medium"
-      >
-        Logout
-      </Button>
+    <div className="bg-[#181A1C]">
+      <NavBar></NavBar>
+      <Header></Header>
+
+      <div className="w-full h-[500px] flex flex-col items-center justify-center relative">
+        <h2 className="absolute text-3xl font-semibold text-white top-20 text-center">
+          Movies
+        </h2>
+        <CircularGallery
+          bend={0}
+          textColor="#ffffff"
+          borderRadius={0.05}
+          scrollEase={0.02}
+        />
+      </div>
     </div>
   );
 };

@@ -10,11 +10,12 @@ import RegisterPage from "./pages/register";
 import ErrorPage from "./pages/404.jsx";
 import Home from "./pages/home.jsx";
 import ProtectedRoute from "./pages/protectrouter.jsx";
+import { Navigate } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div></div>,
+    element: <Navigate to="/home" replace />,
     errorElement: <ErrorPage />,
   },
   {
