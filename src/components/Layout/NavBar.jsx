@@ -14,7 +14,6 @@ const NavBar = () => {
     location.pathname === "/login" ||
     location.pathname === "/register" ||
     location.pathname === "/home";
-  location.pathname === "/";
 
   const handleLogout = () => {
     localStorage.removeItem("token");

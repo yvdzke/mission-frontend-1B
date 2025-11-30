@@ -5,14 +5,14 @@
 /* Tailwind */
 
 /* Images Start */
-.bg-movie-1 {
-  background-image: url("/src/assets/movie-1.jpg");
+.bg-1 {
+  background-image: url("/src/assets/img/bg-1.jpg");
 }
-.bg-movie-2 {
-  background-image: url("/src/assets/movie-2.jpg");
+.bg-2 {
+  background-image: url("/src/assets/img/bg-2.jpg");
 }
-.bg-movie-3 {
-  background-image: url("/src/assets/movie-3.jpg");
+.bg-3 {
+  background-image: url("/src/assets/img/bg-3.jpg");
 }
 .bg-header {
   background-image: url("/src/assets/img/dutyafterschool.jpg");

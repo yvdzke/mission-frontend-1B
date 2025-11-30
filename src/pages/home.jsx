@@ -1,10 +1,10 @@
 import NavBar from "../components/Layout/NavBar";
-import FrameIP from "../assets/iPhone-12-Pro.png";
+import FrameIP from "../assets/img/ip.png";
 import SplashCursor from "../components/ReactBit/CursorSplash";
 
 const Home = () => {
   return (
-    <div className="w-full min-h-screen bg-movie-3 bg-cover flex items-center relative overflow-hidden">
+    <div className="w-full min-h-screen bg-1 bg-cover flex items-center relative overflow-hidden">
       <SplashCursor />
       <NavBar></NavBar>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10 py-20">
