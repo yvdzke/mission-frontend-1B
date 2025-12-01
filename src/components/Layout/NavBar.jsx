@@ -29,7 +29,7 @@ const NavBar = () => {
     >
       {/* yvdz Logo */}
       <Link
-        to="/home"
+        to="/"
         className="flex items-center gap-2 font-bold text-white text-1xl"
       >
         <MdMovie className="text-3xl" />
