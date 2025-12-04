@@ -51,12 +51,15 @@ const NavBar = () => {
       {/* NavBar Auth */}
       {!hideAuthLinks && (
         <div className="flex items-center gap-4 mr-4">
-          <Link to="/login" className="text-white hover:text-blue-600">
+          <Link
+            to="/login"
+            className="text-white w-20 h-7 text-center rounded-md border bg-transparent hover:border-indigo-500"
+          >
             Login
           </Link>
           <Link
             to="/register"
-            className="text-white px-3 py-1 hover:text-blue-600"
+            className="text-white w-20 text-center h-7 rounded-md border bg-transparent hover:border-indigo-500"
           >
             Register
           </Link>
